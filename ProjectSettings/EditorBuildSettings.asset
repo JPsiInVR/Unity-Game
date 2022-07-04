@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 4ab486dda3306da43a6131277dcde323
+  - enabled: 1
+    path: Assets/Scenes/VRMain.unity
+    guid: 7b4fdfa269596454eae20a52f37d9a72
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: d8d87d98cd5d46d4296c103ea5120e91
+  - enabled: 1
+    path: Assets/Scenes/Calibration.unity
+    guid: d07c3d200ef0e454fb82bdeff5550dc0
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part1/C1P1S1.unity
+    guid: 16af1d6b670d891498be3700caf5fb80
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part2/C1P2S1.unity
+    guid: 5c346b93a4514694cb9b86712b0bea1f
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part2/C1P2S2.unity
+    guid: df3ab6d25dbccf7428bac1e3fbf6f415
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part2/C1P2S3.unity
+    guid: 7933ef340f024674983a474bf6b24c42
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part2/C1P2S4.unity
+    guid: ccd7ec308b10b0b40a041088e10d7975
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part2/C1P2S5.unity
+    guid: 86f543a7d14dbbf4ca0c1a9f17fee1b4
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part2/C1P2S6.unity
+    guid: c66eb1a82756b214184ac7e07310063a
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part3/C1P3S1.unity
+    guid: 8dc369183acc48746ac940e3ae7a1f0b
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Part4/C1P4S1.unity
+    guid: e9f6f4bbe6a04ce40a0dbc6d86e04c86
+  m_configObjects: {}

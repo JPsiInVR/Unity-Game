@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4951468655397434513
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cosmic(Fresnel)
+  m_Shader: {fileID: -6465566751694194690, guid: a6a666312bf3f314e9bb4cd9b132672c,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - CosmosTexture:
+        m_Texture: {fileID: 2800000, guid: 510553e0faeedf5459c8a844ac5e2d52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - StarsTexture:
+        m_Texture: {fileID: 2800000, guid: 580e7698afeaf1a4c95ab9543698e5d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CosmicFieldTex:
+        m_Texture: {fileID: 2800000, guid: 66246941a3144274fa8176cfca1bfd95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelTex:
+        m_Texture: {fileID: 2800000, guid: e606808f5f6cb324082d8dc32a65af24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 52780cc3ba033914b8603032a1a0ea79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMapTex:
+        m_Texture: {fileID: 2800000, guid: 580e7698afeaf1a4c95ab9543698e5d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 52780cc3ba033914b8603032a1a0ea79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Height: 0.81
+    - StarsStrength: 1.35
+    - _CosmicFieldGlow: 1
+    - _CosmicFieldSize: 4
+    - _CosmicFieldXSpeed: 0
+    - _CosmicFieldYSpeed: -0.08
+    - _FresnelGlow: 1.8
+    - _FresnelRadius: 0.6
+    - _FresnelXSpeed: 0
+    - _FresnelYSpeed: -0.03
+    - _OverallCosmicGlow: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _StarMapGlow: 3
+    - _StarMapSize: 6
+    - _StarMapXSpeed: 0
+    - _StarMapYSpeed: -0.03
+    - _StarsHeight: 1.3
+    - _UnscaledTime: 90.636345
+    m_Colors:
+    - Color_1: {r: 0.015686274, g: 0.039020304, b: 0.13333334, a: 0}
+    - CosmosScrollSpeed: {r: 0.03, g: -0.03, b: 0, a: 0}
+    - CosmosTiling: {r: 2.09, g: 1.1, b: 0, a: 0}
+    - ScrollSpeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - StarsTiling: {r: 2, g: 2, b: 0, a: 0}
+    - StarsTint: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelColor1: {r: 0.5490196, g: 0.3294118, b: 1, a: 0}
+    - _FresnelColor2: {r: 0.1333333, g: 0.07843138, b: 0.5529412, a: 0}
+  m_BuildTextureStacks: []
